@@ -29,6 +29,7 @@ function getQuantityElementElements (heightElement) {
 
 function startGame() {
     start.classList.add('hide');
+    score.style.top = 0 + 'px';
     gameArea.innerHTML = '';
     
     for(let i = 0; i < getQuantityElementElements(100); i++) {
